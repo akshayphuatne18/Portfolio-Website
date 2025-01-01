@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white;
+  }
+}
+
+@layer utilities {
+  .bg-grid-pattern {
+    background-image: linear-gradient(to right, #4a5568 1px, transparent 1px),
+      linear-gradient(to bottom, #4a5568 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  .bg-matrix-rain {
+    background: linear-gradient(180deg, 
+      rgba(0, 255, 170, 0.15) 0%,
+      rgba(0, 255, 170, 0) 100%
+    );
+    animation: matrixRain 20s linear infinite;
+  }
+}
+
+@keyframes matrixRain {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
