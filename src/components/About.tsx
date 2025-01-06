@@ -160,14 +160,14 @@ const About: React.FC = () => {
                 </h4>
                 <div className="flex space-x-4 mt-2">
                   <button
-                    onClick={() => window.open("/10thMarksCard.jpg")}
+                    onClick={() => window.open("/Portfolio-Website/10thMarksCard.jpg")}
                     aria-label="View 10th Marks Card"
                     className="px-4 py-2 bg-purple-600/20 text-purple-400 rounded-lg hover:bg-purple-600/30 transition-all"
                   >
                     10th Marks Card
                   </button>
                   <button
-                    onClick={() => window.open("/12thMarksCard.jpg")}
+                    onClick={() => window.open("/Portfolio-Website/12thMarksCard.jpg")}
                     aria-label="View 12th Marks Card"
                     className="px-4 py-2 bg-cyan-600/20 text-cyan-400 rounded-lg hover:bg-cyan-600/30 transition-all"
                   >
@@ -230,7 +230,7 @@ const About: React.FC = () => {
           className="mt-12 text-center"
         >
           <button
-            onClick={() => window.open("/accenture_resume.pdf")}
+            onClick={() => window.open("/Portfolio-Website/accenture_resume.pdf")}
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-full text-white font-semibold hover:from-purple-700 hover:to-cyan-700 transition-all transform hover:scale-105"
           >
             <FileText className="w-5 h-5 mr-2" />
@@ -255,7 +255,7 @@ const About: React.FC = () => {
             {/* Certification Image */}
             <div className="flex justify-center items-center">
               <img
-                src="/certificate.png"
+                src="/Portfolio-Website/certificate.png"
                 alt="Certification"
                 className="max-w-full h-auto rounded-lg shadow-md"
               />

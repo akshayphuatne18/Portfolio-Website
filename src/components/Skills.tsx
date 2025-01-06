@@ -19,7 +19,7 @@ const skillCategories = [
   {
     icon: Server,
     title: 'Backend',
-    skills: ['Node.js', 'Express.js', 'Flask', 'Django','JWT', 'Zod validation','Google OAuth', 'Redis'],
+    skills: ['Node.js', 'Express.js', 'Flask', 'Django','JWT', 'Zod validation','Google OAuth', 'Redis', 'Postman'],
     color: 'cyan'
   },
   {
@@ -31,7 +31,7 @@ const skillCategories = [
   {
     icon: Cloud,
     title: 'Cloud & DevOps',
-    skills: ['AWS', 'Kubernetes', 'Docker', 'CloudFlare', 'Serverless Architecture'],
+    skills: ['AWS', 'Kubernetes', 'Docker', 'CloudFlare', 'Serverless Architecture','Nginx','Git'],
     color: 'blue'
   },
   {
